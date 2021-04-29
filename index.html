@@ -88,7 +88,7 @@
         <h3 class='title'>누나 생일</h3>
         <div class='date-box'>
             <p id='noona' class='days-left'>0일 남음</p>
-            <p id='noonaB' class='date'>0000.00.00</p>
+            <p id='noonaB' class='date'>2022.02.03</p>
         </div>
     </section>
     <hr/>
@@ -123,9 +123,10 @@
         
         //누나 생일
         var noona = new Date('2022-02-03');
-        var timeDiff3 = noona.getTime() - now.getTime();
-        var noonaB = Math.floor(timeDiff3 / (1000*60*60*24)+1) ;
+        var timeDiff4 = noona.getTime() - now.getTime();
+        var noonaB = Math.floor(timeDiff4 / (1000*60*60*24)+1) ;
         $('#noona').text(noonaB + '일 남음');
+        
 
         // 시작하기: git init
         // 유저 이름 설정: git config --global user.name "codelion-jocoding"
